@@ -17,8 +17,9 @@ class Idea(object):
     def __init__(self, name):
         """
         """ 
-        self.ID = 
+        self.ID = hash_of()
         self.name = name
-        self.idea_point = 
+        self.idea_point = some_type
+        self.parent = 
 
  
