@@ -5,21 +5,28 @@ class Idea(object):
     A unique idea. An idea has following attributes:
 
     attributes:
-        ID: unique idea identifier
-        name: A string representing the name of the idea - easy to understand
-        idea_point: A numeric vector (coordinates) representing a point in an idea space
-        type: 
-        parental_info: (a dictionarry) parent ideas and the strength of relationship with them
-        # children: children ideas
-        IPFS_objects: Physical (digital) objects related with the idea such as publication, data
+        id: Unique idea identifier hash.
+        name: A string representing the name of the idea - easy to understand.
+        types: List of subnetwork or subgroups 
+        parents: List of <parent idea id, strength of relationship>
+        source:: Optional id of previous version of the same idea
+        supporting_files: List of urls to files/objects related with the idea such as publication, data.
+        authors: List of authors
+        events: List of relevant events
+        description: Text description or abstract of the idea.
+        keywords: List of keywords or tags or subjects
     """
 
-    def __init__(self, name):
+    def __init__(self, name, **kwargs):
         """
         """ 
-        self.ID = hash_of()
+        self.id = self.get_new_id()
         self.name = name
-        self.idea_point = some_type
-        self.parent = 
-
- 
+        self.types = kwargs.get("types", None)
+        self.parents = kwargs.get("parents", None)
+        self.source = kwargs.get("source", None)
+        self.supporting_files = kwargs.get("supporting_files", None)
+        self.authors = kwargs.get("authors", None)
+        self.events = kwargs.get("events", None)
+        self.description = kwargs.get("description", None)
+        self.keywords: kwargs.get("keywords", None)
