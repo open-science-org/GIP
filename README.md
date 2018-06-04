@@ -7,7 +7,16 @@ IPIS will allow us to track the evolution of ideas over time as well as quantify
 ### Mathematical Definition
 Mathematically, IPIS is a directed acyclic graph (DAG) that grown over time. Each node in IPIS contains enough information to describe a unique idea I. The edge between two nodes representing ideas I1 and I2 will show the relationship (magnitude and direction of idea/information flow) between I1 and I2.
 
+### Idea Flow
+![Idea Flow](Idea_flow.png)
+Idea I_0 cites Idea I_1, I_2, and I_3. Here the idea I_0 is borrowing some knowldge from the cited publications (its parent ideas), so the idea flows from I_1, I_3, and I_3 to I_0.
+
+### Value Flow
+![Value Flow](Value_flow.png)
+The value (in form of OSO tokens) flows backward i.e. opposite to the idea flow.
+
 ## IPIS v.0.0 (basic version)
 *we will implement this first*
 
 Each node of IPIS will represent a publication and an edge will represent the direction of “idea flow”; the strength of relationship (or magnitude) is same for all idea pairs. This means first order “cost of idea” is same across the graph. However, it can be user dependent by design. For example, let’s say an entity publishes a publication A where publications B, C, D, & E are cited. In other words, the costs of idea of publications B, C, D, & E are equal for publication A. However, if the entity feels (and the reviewer agrees) that the publication A is more dependent on publications B & D, the entity can redistribute the costs of idea as (B, C, D, E) = (5, 1, 10, 1).
+
