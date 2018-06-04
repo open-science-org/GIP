@@ -9,10 +9,11 @@ Mathematically, IPIS is a directed acyclic graph (DAG) that grown over time. Eac
 
 ### Idea Flow
 ![Idea Flow](Idea_flow.png)
+Idea I_0 cites Idea I_1, I_2, and I_3. Here the idea I_0 is borrowing some knowldge from the cite publications (its parent ideas), so the idea flows from I_1, I_3, and I_3 to I_0.
 
 ### Value Flow
 ![Value Flow](Value_flow.png)
-
+The value (in form of OSO tokens) flows backward i.e. opposite to the idea flow.
 
 ## IPIS v.0.0 (basic version)
 *we will implement this first*
