@@ -7,7 +7,7 @@ class IdeaType(object):
     attributes:
         id: Unique type identifier hash.
         name: A string representing the name of the type.
-        description: Text description or abstract of the idea.
+        description: Text description or abstract of the type.
     """
 
     def __init__(self, name, **kwargs):
