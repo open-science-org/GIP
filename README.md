@@ -19,7 +19,7 @@ With GIP, each unique idea can be identified and its evolution over the time can
 GIP will allow us to track the evolution of ideas over time as well as quantify the similarity of two ideas. The similarity score can be a hybrid of the market-driven score (decided by the scientific community via voting) and the algorithmic score generated from the GIP protocol. GIP will facilitate the efficient sharing of the ideas and prevent the community from reinventing wheels, thereby accelerating the pace of the scientific research. In addition, a good visualization of GIP objects will help the scientific community to identify the pain points of scientific research. Similarly, it can be used to find the optimal distribution of available resources (e.g. fund allocation) required in order to maximize scientific throughput. Loosely speaking, GIP will store the collective thought process of the whole scientific community.
 
 ### Mathematical Definition
-Mathematically, GIP is a directed acyclic graph (DAG) that grown over time. Each node in IPIS contains enough information to describe a unique idea I. The edge between two nodes representing ideas I1 and I2 will show the relationship (magnitude and direction of idea/information flow) between I1 and I2.
+Mathematically, GIP is a directed acyclic graph (DAG) that grown over time. Each node in GIP contains enough information to describe a unique idea I. The edge between two nodes representing ideas I1 and I2 will show the relationship (magnitude and direction of idea/information flow) between I1 and I2.
 
 ### Idea Flow
 ![Idea Flow](Idea_flow.png)
