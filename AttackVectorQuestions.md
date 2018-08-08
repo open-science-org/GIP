@@ -21,3 +21,19 @@ Yes
 
 
 ## How is reputation tracked in the system?
+First, we have to define reputation scores.
+I am in favor of multidimensional reputation scores (a vector) where each dimension will quanity some facet of reputation. Also, there can be multiple different reputation scores (e.g. overall reputation scores of the plaform and reputation scores for each sub-network).
+
+**Vanilla design:**
+
+*Start*      
+Overall Reputation score of an entity: R = (R1, R2, R3)     
+ where, R1 = f1(Txs), R2 = f2(Txs), R3 = f3(Txs)
+
+ Txs = a list of activities of the entity on the platform or outside    
+ f1, f2, f3 = functions that govern the calculation of reputation scores   
+
+ *Update Rule*     
+ Rn(t+T) = Rn(t) + fn(Txs within time period T) (assuming reputation is updated with interval of T)
+
+
