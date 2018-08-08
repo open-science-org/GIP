@@ -34,3 +34,6 @@ The value (in form of OSO tokens) flows backward i.e. opposite to the idea flow.
 
 Each node of GIP will represent a publication and an edge will represent the direction of “idea flow”; the strength of relationship (or magnitude) is same for all idea pairs. This means first order “cost of idea” is same across the graph. However, it can be user dependent by design. For example, let’s say an entity publishes a publication A where publications B, C, D, & E are cited. In other words, the costs of idea of publications B, C, D, & E are equal for publication A. However, if the entity feels (and the reviewer agrees) that the publication A is more dependent on publications B & D, the entity can redistribute the costs of idea as (B, C, D, E) = (5, 1, 10, 1).
 
+
+### Practical Examples
+![Energy Efficient Light Bulb](light_bulbs.png)
