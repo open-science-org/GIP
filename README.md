@@ -2,7 +2,7 @@
 previously called **Interplanetary Idea System (IPIS)**
 
 ### What is an Idea?
-Idea is an entity which generates new information at the time of its creation. It can be a publication, book, website, blog, data, legal document, or anything physical/virtual object or concept.
+Idea is an entity which generates new information at the time of its creation. It can be a publication, book, code, website, blog, data, legal document, or anything physical/virtual object or concept.
 ![Idea](idea.png)
 
 ### What is GIP?
@@ -37,3 +37,5 @@ Each node of GIP will represent a publication and an edge will represent the dir
 
 ### Practical Examples
 ![Energy Efficient Light Bulb](light_bulbs.png)
+
+The value flow back from the energey efficient light bulb can used to fund further research. This unique feature of value flow back partially solves the current problem of the scarcity of funding in scientific research.
