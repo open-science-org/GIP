@@ -1,6 +1,16 @@
 # Generalized Idea Protocol (GIP) 
 previously called **Interplanetary Idea System (IPIS)**
 
+Research or any intellectual process can be fully described by three basic components: 1) Definition of an intellectual contribution (i.e. Idea object) 2) Relationship among idea objects, 3) State change of the idea objects in response to an action by an agent or group of agents (i.e. users). Generalized Idea Protocol (GIP) (https://github.com/open-science-org/GIP}{https://github.com/open-science-org/GIP) describes these three components. GIP fully defines an idea, its relationship with other ideas, and its state change in response to a user (e.g. researcher). 
+
+**Representing all Human Knowledge by a Graph**
+With the representation of the ideas by GIP, the collection of the ideas will form a directed graph (digraph) that grows over time.
+A directed graph is an ordered pair $G = (V, E)$ where $V$ is a set of elements, called vertices or nodes and $E$ is a set of ordered pairs of vertices, called directed edges or simply edges
+[Bang-Jensen, Jørgen; Gutin, Gregory (2000), Digraphs: Theory, Algorithms and Applications, Springer, ISBN 1-85233-268-9]
+In OSO platform, a node in the digraph will represent an idea (say $I_3$) and will contain enough information to describe the idea. The edge between two nodes (representing ideas $I_1$ and $I_2$) will describe the relationship (magnitude and direction of idea and value flow) between $I_1$ and $I_2$.
+![Idea Graph](GIP_digraph.png)
+
+
 ### What is an Idea?
 Idea is an entity which generates new information at the time of its creation. It can be a publication, book, website, blog, data, legal document, or anything physical/virtual object or concept.
 ![Idea](idea.png)
