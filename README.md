@@ -1,6 +1,9 @@
 # Generalized Idea Protocol (GIP) 
 previously called **Interplanetary Idea System (IPIS)**
 
+An absolute minimum viable product would look like  https://gist.github.com/noman-land/64db658bbfa15c1d487ea1544c8e2d88  (author: Noman)
+
+
 Research or any intellectual process can be fully described by three basic components: 1) Definition of an intellectual contribution (i.e. Idea object) 2) Relationship among idea objects, 3) State change of the idea objects in response to an action by an agent or group of agents (i.e. users). Generalized Idea Protocol (GIP) (https://github.com/open-science-org/GIP}{https://github.com/open-science-org/GIP) describes these three components. GIP fully defines an idea, its relationship with other ideas, and its state change in response to a user (e.g. researcher). 
 
 **Representing all Human Knowledge by a Graph**
