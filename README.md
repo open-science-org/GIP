@@ -52,3 +52,5 @@ Each node of GIP will represent a publication and an edge will represent the dir
 ![Energy Efficient Light Bulb](light_bulbs.png)
 
 The value flow back from the energey efficient light bulb can used to fund further research. This unique feature of value flow back partially solves the current problem of the scarcity of funding in scientific research.
+
+See Proof of Idea https://github.com/open-science-org/wiki/blob/master/Proof_of_Idea.pdf
