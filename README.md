@@ -1,3 +1,5 @@
+> **2026 update.** OSO restarted in October 2026. The ideas in this repository are now specified in [OIP-14: Idea attribution and value flow](https://github.com/open-science-org/OIPs/blob/master/OIPS/oip-14.md), which adds intrinsic (AI-assessed) and extrinsic (citation) links, time, and approval before value moves. See the [OSO v1 design doc](https://github.com/open-science-org/OSO/blob/master/docs/design-v1.md). The content below is the original 2017–2018 work, kept for history.
+
 # Generalized Idea Protocol (GIP) 
 previously called **Interplanetary Idea System (IPIS)**
 
